@@ -16,7 +16,7 @@ import sys
 import time
 from pathlib import Path
 
-import fitz        # package: pymupdf
+import pymupdf as fitz 
 import requests
 
 # ---------------- settings ----------------
@@ -67,7 +67,7 @@ def main():
     try:
         requests.get("http://127.0.0.1:11434/api/tags", timeout=5)
     except requests.RequestException:
-        sys.exit("Ollama is not running. Start it with: sudo systemctl start ollama")
+        sys.exit("Cannot reach Ollama. Is the SSH tunnel open? (ssh -N -L 11434:127.0.0.1:11434 imon333@192.168.0.106)")
 
     with fitz.open(pdf_path) as pdf:
         pages = [page.get_text() for page in pdf]

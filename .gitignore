@@ -1,0 +1,9 @@
+# Python environment (every computer creates its own)
+venv/
+
+# Python cache files (created automatically when scripts run)
+__pycache__/
+*.pyc
+
+# Mac system files
+.DS_Store
