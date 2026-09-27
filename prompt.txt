@@ -1,0 +1,20 @@
+Remove all strictly confidential personal information. Replace each item with [REMOVED].
+
+REMOVE:
+- Names of private people (full names, first names alone, surnames alone, initials such as "D. Kessler", and forms like "Mr Kessler")
+- Dates of birth
+- Street addresses (street name, house number and postal code)
+- Phone numbers in any format (with spaces, dashes, or country code)
+- E-mail addresses
+- Passport numbers, tax IDs, social insurance numbers, employee IDs, customer numbers, booking references
+- Bank details: IBAN (also partial IBANs such as "ending in ..."), BIC, credit card numbers, card expiry dates, security codes (CVV)
+- Usernames and passwords
+- Car registration plates
+- Salary amounts and account balances
+
+KEEP (do not remove):
+- City names on their own (for example "Hamburg" or "Lisbon")
+- Company names
+- Flight numbers, dates of travel, times, and rent or prices
+- All general text, headings, rules and tips
+- The line "STRICTLY CONFIDENTIAL - TEST DOCUMENT (all data is fictional)"
